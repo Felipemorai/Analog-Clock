@@ -11,10 +11,41 @@ html, body {
 body {
     display: grid;
     place-items: center;
+    background: #dde1e7;
+    text-align: center;
 }
 
 .clock {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: #dde1e7;
     height: 250px;
-    width: 350px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: -3px -3px 7px #ffffff73,
+                3px 3px 5px rgba(94,104,121,0.288);
+}
+
+.clock:before {
+    position: absolute;
+    content: '';
+    height: 220px;
+    width: 220px;
+    background: #dde1e7;
+    border-radius: 50%;
+    box-shadow: inset -3px -3px 7px #ffffff73,
+                inset 3px 3px 5px rgba(94,104,121,0.288);
+}
+
+.clock:after {
+    position: absolute;
+    content: '';
+    height: 120px;
+    width: 120px;
+    background: #dde1e7;
+    border-radius: 50%;
+    box-shadow: -3px -3px 7px #ffffff73,
+                3px 3px 5px rgba(94,104,121,0.288);
 }
