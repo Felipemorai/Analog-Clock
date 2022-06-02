@@ -46,6 +46,23 @@ body {
     width: 120px;
     background: #dde1e7;
     border-radius: 50%;
-    box-shadow: -3px -3px 7px #ffffff73,
-                3px 3px 5px rgba(94,104,121,0.288);
+    box-shadow: -1px -1px 5px #ffffff73,
+                1px 1px 3px rgba(94,104,121,0.288);
+}
+
+.clock .center-nut {
+    height: 15px;
+    width: 15px;
+    background: #404040;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+.clock .center-nut2 {
+    height: 9px;
+    width: 9px;
+    background: #3498db;
+    border-radius: 50%;
+    z-index: 15;
+    position: absolute;
 }
