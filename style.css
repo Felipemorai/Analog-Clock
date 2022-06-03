@@ -169,4 +169,45 @@ body {
     height: 35px;
     width: 7px;
     background: #3498db;
+    top: 105px;
+    border-radius: 5px;
+}
+
+.min:before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    top: -15px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 60px solid #e95949;
+}
+
+.min:after {
+    position: absolute;
+    content: '';
+    width: 3px;
+    top: 40px;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 30px solid #e95949;
+}
+
+.hr:before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 35px solid #303030;
+}
+
+.hr:after {
+    position: absolute;
+    content: '';
+    width: 3px;
+    top: 35px;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 25px solid #303030;
 }
